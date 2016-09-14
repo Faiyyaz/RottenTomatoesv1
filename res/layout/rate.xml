@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/red" >
+    
+    <TableLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        
+            
+          <ScrollView 
+      android:id="@+id/sv"
+      android:layout_height="match_parent"
+      android:layout_width="match_parent">
+      </ScrollView>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <TableRow 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:text="@string/How"
+            android:textColor="@color/lime"
+            android:textSize="18dp" >
+</TextView>
+        </TableRow>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 <TableRow 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:text="@string/about"
+            android:textColor="@color/white"
+            android:textSize="18dp" >
+</TextView>
+        </TableRow>
+        
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  <TableRow 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:text="@string/copywright"
+            android:textColor="@color/white"
+            android:textSize="15dp" >
+</TextView>
+        </TableRow>
+                <Button
+            android:id="@+id/button1"
+            android:background="@color/lime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back to Menu" />
+        </TableLayout>
+
+</RelativeLayout>

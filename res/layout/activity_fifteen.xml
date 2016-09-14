@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+	android:background="@color/red" >
+
+    <com.example.fifteen.CustomAutoCompleteView
+        android:id="@+id/myautocomplete"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="24dp"
+        android:background="@color/white"
+        android:completionThreshold="1"
+        android:ems="10"
+        android:hint="@string/enter" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/myautocomplete"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:hint="@string/review"
+        android:inputType="textMultiLine"
+        android:minLines="8"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white" />
+
+    <RatingBar
+        android:id="@+id/ratingBar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/ratingBar1"
+        android:layout_marginTop="36dp"
+        android:background="@color/lime"
+        android:text="@string/submit" />
+    
+        <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/button1"
+        android:layout_marginTop="16dp"
+        android:text="@string/Back"
+        android:background="@color/lime" />
+ 
+</RelativeLayout>

@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                  <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+      android:id="@+id/sv"
+      android:layout_height="match_parent"
+      android:layout_width="match_parent">
+
+<RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/red" >
+
+    
+
+
+    
+    <TableLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+    
+        
+        <TableRow 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        
+        <TextView
+            android:text="@string/listofmoviesavilable"
+            android:textColor="@color/lime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1">
+            
+        </TextView>
+        </TableRow>
+       
+        <TableRow 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        
+        <TextView
+            android:text="@string/m2016"
+            android:textColor="@color/lime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1">
+            
+        </TextView>
+        </TableRow>
+
+       <TableRow 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        
+        <TextView
+            android:text="@string/January"
+            android:textColor="@color/lime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1">
+            
+        </TextView>
+        </TableRow>
+                
+                        <TableRow 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        
+        <TextView
+            android:text="@string/wazir"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1">
+            
+        </TextView>
+        </TableRow>
+        
+                                                <TableRow 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        
+        <TextView
+            android:text="@string/airlift"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1">
+            
+        </TextView>
+        </TableRow>
+        
+        <TableRow 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        
+        <TextView
+            android:text="@string/kkh3"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1">
+            
+        </TextView>
+        </TableRow>
+        
+                                                                                                <TableRow 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        
+        <TextView
+            android:text="@string/masti"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1">
+            
+        </TextView>
+        </TableRow>
+        
+        <TableRow 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        
+        <TextView
+            android:text="@string/February"
+            android:textColor="@color/lime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1">
+            
+        </TextView>
+        </TableRow>
+        
+        <TableRow 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        
+        <TextView
+            android:text="@string/stk"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1">
+            
+        </TextView>
+        </TableRow>
+        
+            <TableRow                                                                                  
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        
+        <TextView
+            android:text="@string/fitoor"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1">
+            
+        </TextView>
+        </TableRow>
+        
+        <TableRow 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        
+        <TextView
+            android:text="@string/sr"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1">
+            
+        </TextView>
+        </TableRow>
+        
+                                                                                                                                                                                                                        <TableRow 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        
+        <TextView
+            android:text="@string/neerja"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"></TextView>
+        </TableRow>
+        
+                                                                                                                                                                                                                                                <TableRow 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        
+        <TextView
+            android:text="@string/March"
+            android:textColor="@color/lime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"></TextView>
+        </TableRow>
+        
+                                                                                                                                                                                                                                                                        <TableRow 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        
+        <TextView
+            android:text="@string/kands"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"></TextView>
+        </TableRow>
+        
+                                                                                                                                                                                                                                                                                                <TableRow 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        
+        <TextView
+            android:text="@string/rh"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"></TextView>
+        </TableRow>
+        
+                                                                                                                                                                                                                                                                                                                        <TableRow 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        
+        <TextView
+            android:text="@string/April"
+            android:textColor="@color/lime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"></TextView>
+        </TableRow>
+        
+                                                                                                                                                                                                                                                                                                                                                <TableRow 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        
+        <TextView
+            android:text="@string/kika"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"></TextView>
+        </TableRow>
+        
+                                                                                                                                                                                                                                                                                                                                                                        <TableRow 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        
+        <TextView
+            android:text="@string/fan"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"></TextView>
+        </TableRow>
+        
+                                                                                                                                                                                                                                                                                                                                                                                                <TableRow 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        
+        <TextView
+            android:text="@string/May"
+            android:textColor="@color/lime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"></TextView>
+        </TableRow>
+        
+                                                                                                                                                                                                                                                                                                                                                                                                                        <TableRow 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        
+        <TextView
+            android:text="@string/azhar"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"></TextView>
+        </TableRow>
+        
+                                                                                                                                                                                                                                                                                                                                                                                                                                                <TableRow 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        
+        <TextView
+            android:text="@string/June"
+            android:textColor="@color/lime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"></TextView>
+        </TableRow>
+        
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <TableRow 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        
+        <TextView
+            android:text="@string/hf"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"></TextView>
+        </TableRow>
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <TableRow 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        
+        <TextView
+            android:text="@string/jj"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_column="1"></TextView>
+        </TableRow>
+        
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <TableRow 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        
+        <TextView
+            android:text="@string/dlkk"
+            android:layout_width="wrap_content"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content"
+            android:layout_column="1"></TextView>
+        </TableRow>
+        
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <TableRow 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        
+        <TextView
+            android:text="@string/July"
+            android:textColor="@color/lime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"></TextView>
+        </TableRow>
+        
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <TableRow 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        
+        <TextView
+            android:text="@string/raees"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"></TextView>
+        </TableRow>
+        
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <TableRow 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        
+        <TextView
+            android:text="@string/sultan"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"></TextView>
+        </TableRow>
+        
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <TableRow 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        
+        <TextView
+            android:text="@string/dishoom"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"></TextView>
+        </TableRow>
+        
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <TableRow 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        
+        <TextView
+            android:text="@string/August"
+            android:textColor="@color/lime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"></TextView>
+        </TableRow>
+        
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <TableRow 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        
+        <TextView
+            android:text="@string/phh3"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"></TextView>
+        </TableRow>
+        
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <TableRow 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        
+        <TextView
+            android:text="@string/September"
+            android:textColor="@color/lime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"></TextView>
+        </TableRow>
+        
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <TableRow 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        
+        <TextView
+            android:text="@string/ms"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"></TextView>
+        </TableRow>
+        
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <TableRow 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        
+        <TextView
+            android:text="@string/bbd"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"></TextView>
+        </TableRow>
+        
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <TableRow 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        
+        <TextView
+            android:text="@string/October"
+            android:textColor="@color/lime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"></TextView>
+        </TableRow>
+        
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <TableRow 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        
+        <TextView
+            android:text="@string/adhm"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"></TextView>
+        </TableRow>
+        
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <TableRow 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        
+        <TextView
+            android:text="@string/November"
+            android:textColor="@color/lime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"></TextView>
+        </TableRow>                        <TableRow 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        
+        <TextView
+            android:text="@string/ro2"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"></TextView>
+        </TableRow>                        <TableRow 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        
+        <TextView
+            android:text="@string/December"
+            android:textColor="@color/lime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"></TextView>
+        </TableRow>                        <TableRow 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        
+        <TextView
+            android:text="@string/dangal"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"></TextView>
+        </TableRow>
+        
+        <Button
+            android:id="@+id/button1"
+            android:background="@color/lime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2015 Movies" />
+        
+        <Button
+            android:id="@+id/button2"
+            android:background="@color/lime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back To Menu" />
+
+    </TableLayout>
+</RelativeLayout>
+          </ScrollView>

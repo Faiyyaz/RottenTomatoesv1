@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/red" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="14dp"
+        android:src="@drawable/star" />
+    
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="21dp"
+            android:gravity="center_vertical"
+            android:text="ROTTEN TOMATOES"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/nUsername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/textView4"
+            android:ems="10"
+            android:hint="Please Enter User Name"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" >
+			
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/nPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/nUsername"
+            android:ems="10"
+            android:hint="Please Enter Password"
+            android:inputType="textPassword"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+
+        <EditText
+            android:id="@+id/nConfiPass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/nPassword"
+            android:ems="10"
+            android:hint="Confirm Password"
+            android:inputType="textPassword"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+
+        <Button
+            android:id="@+id/nRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/nConfiPass"
+            android:background="@color/lime"
+            android:text="@string/Register" />
+
+        <Button
+            android:id="@+id/nClear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/nRegister"
+            android:layout_marginTop="14dp"
+            android:background="@color/lime"
+            android:text="@string/Clear" />
+
+        <Button
+            android:id="@+id/nBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/nClear"
+            android:layout_marginTop="15dp"
+            android:background="@color/lime"
+            android:text="@string/Back" />
+
+</RelativeLayout>
